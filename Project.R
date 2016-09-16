@@ -12,6 +12,8 @@ training <- dat[, colSums(is.na(dat))==0]
 train_control <- trainControl(method = "cv", number = 5)
 
 # Train the model using "train" function
+# Random forest method is selected to get the optimal prediction
+# This process takes about 1hr to complete. The most compudation demanding process.
 modFit <- train(classe~., data = training, trControl = train_control, method = "rf" )
 
 # Print the summary of the model. Get the accuracy.
