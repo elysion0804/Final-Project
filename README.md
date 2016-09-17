@@ -2,7 +2,7 @@
 
 This repository is for the course project of Practical Machine Learning.
 
-Please refer to "REPORT.md" for the detailed final project report.
+Please refer to "Project-Report.md" for the detailed final project report.
 
 "Project.R" is the R code for loading data, building model and making prediction.
 
