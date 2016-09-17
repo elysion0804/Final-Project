@@ -1,6 +1,6 @@
 # Practical Machine Learning Final Project 
 
-# by Jenny Wan
+by Jenny Wan
 
 # Introduction
 
